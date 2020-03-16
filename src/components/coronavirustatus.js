@@ -11,7 +11,6 @@ const arabicStatusNames = {
 export default ({ status, background }) => {
   const [iraqData, setIraqData] = useState(null);
   const baseUrl = useContext(BaseUrlContext);
-    console.log(status)
   useEffect(() => {
     let fetchStatus = true;
     if (fetchStatus) {
