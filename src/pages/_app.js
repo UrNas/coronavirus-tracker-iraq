@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
 
                     جميع الحقوق محفوظة
                 </span>
-                <a style={{marginRight: '10px'}} href='#'><GitHubIcon/></a>
+                <a style={{marginRight: '10px'}} href='https://github.com/UrNas/coronavirus-tracker-iraq'><GitHubIcon/></a>
             </footer>
         </BaseUrlContext.Provider>
     )
