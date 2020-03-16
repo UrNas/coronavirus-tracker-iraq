@@ -14,7 +14,7 @@ body {
 }
 .header {
     text-align: center;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 .verfy {
     display: block;
@@ -27,4 +27,14 @@ footer {
     bottom: 0;
     padding: 15px;
     text-align: center;
+}
+h4 {
+    background-color: #f44336;
+    text-align: center;
+    padding: 15px;
+    width: 25%;
+    margin: 20px auto;
+    color: #eeeeee;
+    font-size: 1.1em;
+    transform: skew(-0.06turn, 2deg);
 }
