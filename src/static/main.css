@@ -3,6 +3,7 @@
     direction: rtl;
 }
 body {
+    height: 100%;
     width: 60%;
     margin: auto;
 }
@@ -26,9 +27,8 @@ footer {
     position: fixed;
     bottom: 0;
     padding: 15px;
-    text-align: center;
 }
-h4 {
+.date {
     background-color: #f44336;
     text-align: center;
     padding: 15px;
@@ -37,4 +37,16 @@ h4 {
     color: #eeeeee;
     font-size: 1.1em;
     transform: skew(-0.06turn, 2deg);
+}
+@media (max-width: 568px) { 
+    .date {
+        width: 70%;
+        font-size: 1em;
+    }
+    .header {
+        font-size: .5em;
+    }
+    .result {
+        font-size: 1em;
+    }
 }

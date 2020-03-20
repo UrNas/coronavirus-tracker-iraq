@@ -8,7 +8,7 @@ const Index = () => {
             <span className='verfy'>
                 كل المعلومات عن طريق مركز جامعة جونز هوبكنز لعلوم وهندسة النظم
             </span>
-            <h4>{today}</h4>
+            <h4 className='date'>{today}</h4>
             <hr style={{marginTop: '50px'}}/>
             <div className='container'>
                 <CoronaviruStatus status='confirmed' background='red'/>

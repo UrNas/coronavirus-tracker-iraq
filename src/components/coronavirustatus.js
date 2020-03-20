@@ -8,5 +8,5 @@ const arabicStatusNames = {
 }
 export default ({ status, background }) => {
   const iraqData = useCorona(status)
-  return <div>{iraqData ? <h1>{arabicStatusNames[status]}: {iraqData[0].latest}</h1> : <h1><CircularProgress /></h1>}</div>;
+  return <div>{iraqData ? <h1 className='result'>{arabicStatusNames[status]}: {iraqData[0].latest}</h1> : <h1><CircularProgress /></h1>}</div>;
 };
