@@ -11,9 +11,9 @@ const Index = () => {
             <h4 className='date'>{today}</h4>
             <hr style={{marginTop: '50px'}}/>
             <div className='container'>
-                <CoronaviruStatus status='confirmed' background='red'/>
-                <CoronaviruStatus status='recovered' background='red'/>
-                <CoronaviruStatus status='deaths' background='red'/>
+                <CoronaviruStatus status='confirmed' />
+                <CoronaviruStatus status='recovered' />
+                <CoronaviruStatus status='deaths' />
             </div>
         </React.Fragment>
     )

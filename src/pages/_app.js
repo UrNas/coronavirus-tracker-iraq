@@ -1,6 +1,6 @@
 import App from 'next/app'
 import {BaseUrlContext} from '../components/baseurlcontext'
-const baseUrl  = 'https://coronavirus-tracker-api.herokuapp.com/'
+const baseUrl  = 'https://coronavirus-tracker-api.herokuapp.com/v2/locations'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import '../static/main.css'
 
